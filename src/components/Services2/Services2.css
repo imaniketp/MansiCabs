@@ -1,0 +1,70 @@
+.serv2Container{
+    /* height: 20%; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 4rem;
+}
+
+.serv2SliderTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serv2SliderTitle span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+        border-bottom: 3px solid #7142ff;
+        line-height: 48px;
+    letter-spacing: 1.5px;
+}
+
+.outerServ2Slider{
+    width: 80vw;
+}
+
+.mainServ2slider{
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.serv2slides{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 10%;
+}
+
+.serv2slides img{
+    width: 3rem;
+}
+
+.serv2slides h5{
+    font-weight: bolder;
+}
+.innerserv2slide{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.Serv2sliderControls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serv2siderbtn{
+    font-size: 2rem;
+    cursor: pointer;
+}
+

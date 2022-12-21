@@ -1,0 +1,42 @@
+.whyContainer{
+    padding: 2rem 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.whyimg1{
+    max-width: 8rem;
+    margin-top: 1%;
+}
+.whyimg2{
+    max-width: 10rem;
+    margin-top: 18%;
+}
+.whyimg3{
+    max-width: 5.5rem;
+    margin-top: 18%;
+
+}
+.whyimg4{
+    max-width: 5.5rem;
+    margin-top: 28%;
+
+}
+
+.whyRow{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 0;
+}
+
+.whyCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,254 @@
+
+.banner1Img{
+    overflow: hidden;
+    display: block;
+    position: relative;
+    
+}
+.banner1Img img{
+    height: 60vh;
+    width: 100%;
+}
+
+
+.hero__slider-section {
+    position: relative;
+    z-index: 10;
+    margin-bottom: 200px;
+  }
+
+.hero__form {
+    position: absolute;
+    bottom: -15%;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media all and (max-width:767px){
+    .hero__form {
+        bottom: -42%;
+        
+      }
+  }
+
+.bannermain{
+    width: 70%;
+    background-color: #ffffff;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 12rem;
+    gap: 1rem;
+    /* padding-top: 0.2rem; */
+}
+.searchbtn{
+    
+    width: 15rem;
+    position: absolute;
+    border-radius: 20px;
+    bottom: -15px;
+    background-color: #7142ff;
+    border: 0;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 0.2rem 0;
+}
+
+@media all and (max-width:400px){
+    .searchbtn{
+        width: 50%;
+    }
+}
+
+.radiobtn{
+    display: flex;
+    
+}
+@media all and (max-width:625px){
+    .radiobtn{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .mainradiobtn{
+        padding: 0;
+        display: flex !important;
+        justify-content: flex-start !important;
+    }
+}
+
+
+.mainradiobtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainradiobtn p{
+    margin-bottom: 0;
+    font-size: 17px;
+}
+.mainradiobtn div{
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+@media all and (max-width:1111px){
+    .mainradiobtn div{
+        justify-content: flex-start;
+    }
+}
+.mainradiobtn div{
+    cursor: pointer;
+}
+.mainradiobtn input{
+    width: 30px;
+}
+
+.mainradiobtn2{
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    display: none;
+}
+.bannerControlBtnActive{
+    margin: 0.5rem;
+    border: 0;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2px;
+    background-color: #7142ff;
+    font-size: 12px;
+    color: #ffffff;
+    display: none;
+}
+.bannerControlBtnInactive{
+    margin: 0.5rem;
+    border: 0;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2px;
+    font-size: 12px;
+    display: none;
+}
+
+@media all and (max-width:1112px){
+    .mainradiobtn2{
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+    }
+    .bannerControlBtnActive{
+        display: block;
+    }
+    .bannerControlBtnInactive{
+        display: block;
+    }
+    .radiobtn{
+        display: none;
+    }
+    .bannermain{
+        
+        padding-top: 0.2rem;
+    }
+}
+
+
+
+
+.radioinput{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 2%;
+}
+.radioinput p{
+    text-align: left;
+    font-size: small;
+}
+.inputLebal{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.inputLebal label{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.directionbtn{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radioInputCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+.radioInputCol input{
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 0.5rem 0;
+    margin-bottom: 0.5rem;
+}
+.radioInputArrow{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media all and (max-width:768px){
+    .radioInputArrow{
+        display: none;
+    }
+    .radioinput{
+        
+        gap: 2rem;
+    }
+    .mainradiobtn p{
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+}
+
+#roundtrip, #rental, #airport{
+    display: none;
+
+}
+.css-1u9des2-indicatorSeparator{
+    display: none;
+}
+.css-tj5bde-Svg{
+    display: none !important;
+} 
+.css-13cymwt-control{
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid black !important;
+    padding: 0;
+    background-color: white !important;
+    
+}

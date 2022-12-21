@@ -1,0 +1,179 @@
+
+.serviceSliderContainer{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+
+.serviceSliderTitle h1{
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    
+}
+
+
+.mainServiceslider .slick-slide{
+    padding: 0 1rem;
+}
+
+.outerServiceSlider{
+    width: 80%;
+}
+
+@media only screen and (max-width:1024px){
+    .outerServiceSlider{
+        width: 90%;
+    }
+}
+
+.mainServiceslider{
+    width: 90%;
+    
+}
+
+.servicesliderControls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicesiderbtn{
+    font-size: 2rem;
+}
+
+.serviceslides{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    gap: 2rem;
+}
+
+.innerServiceSlider1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+.innerServiceSlider1 h2{
+    color: #7142f8;
+    border-bottom: 3px solid #7142f8;
+}
+.innerServiceSlider1 img{
+    width: 4rem;
+}
+
+.sportcar{
+    border-radius: 50%;
+}
+
+
+.innerServiceSlider2Col1{
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+}
+.innerServiceSlider2Col1 img{
+   width: 22rem;
+   border-radius: 8px;
+}
+
+.innerServiceSlider2Col2{
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.innerServiceSlider2Col2 p{
+    font-size: 15px;
+} 
+
+.servicecol2innerdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.servicecol2outerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: row;
+}
+.servicecol2imgdiv{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servicecol2imgdiv img{
+    width: 2rem;
+}
+
+@media all and (max-width:768px){
+    
+    .innerServiceSlider2Col2 p{
+        font-size: 12px;
+        margin-top: 1rem;
+        text-align: center;
+    } 
+    .servicecol2imgdiv{
+        width: 2rem;
+        height: 2rem;
+        
+    }
+    .servicecol2imgdiv img{
+        width: 1rem;
+    }
+    .servicecol2innerdiv p{
+        margin: 0;
+        
+    }
+}
+@media all and (max-width:540px){
+    .innerServiceSlider1 h2{
+        font-size: 1rem;
+     }
+    .innerServiceSlider1 img{
+        width: 2rem;
+    }
+    
+    .innerServiceSlider2Col1 img{
+        width: 80%;
+    
+     }
+     .servicesmallimages{
+        
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+    .servicesmallimages img{
+        width: 1rem !important;
+    }
+}
+
+.servicesmallimages{
+    background-color: #7142f8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+}
+.servicesmallimages img{
+    width: 2rem;
+}

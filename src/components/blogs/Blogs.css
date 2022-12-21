@@ -1,0 +1,90 @@
+.mainblogcontainer{
+    width: 100%;
+    background-color: #ecfffd;
+}
+
+.blogsrow1{
+    display: flex;
+    align-items: flex-end;
+    /* margin: 0;
+    padding: 0; */
+}
+.blogsrow1 img{
+    width: 100%;
+}
+
+.blogSearch{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+    background-color: white;
+    gap: 2rem;
+}
+.blogSearch h5{
+   text-align: center;
+}
+
+.blogserchimgmain{
+    display: flex;
+    gap: 0.2rem;
+}
+.blogserchimg{
+    display: flex;
+    gap: 1rem;
+    max-width: 13rem;
+}
+.blogserchimg img{
+    width: 80px;
+}
+
+@media all and (max-width:768px){
+    .blogserchimg img{
+        width: 80%;
+    }
+}
+.blogserchimg p{
+    font-size: 90%;
+}
+
+.placeserchbar{
+    width: 16rem;
+}
+
+.blogsrow2{
+    margin: 2% 3.5%;
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: center;
+}
+
+.searchplacesCard{
+    border-radius: 5px;
+    max-width: 23rem;
+    padding: 0;
+    margin: 1rem;
+}
+.searchplacesCard img{
+    width: 100%;
+}
+.searchplacesCarddata{
+    padding: 6%;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+.searchplacesCarddata p{
+    color: #4f4d4d;
+}
+.searchplacesCarddata h6{
+    font-weight: bolder;
+}
+.searchplacesCardtitle{
+    color: #7142f8;
+    font-weight: bolder;
+    
+}

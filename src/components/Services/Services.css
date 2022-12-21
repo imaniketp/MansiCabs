@@ -1,0 +1,79 @@
+.serviceContainer{
+  margin: 2rem 0;
+}
+.serviceContainer img{
+  width: 100%;
+}
+
+/*
+.chetan{
+    width: 100ew;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+ .left{
+    width: 30em;
+    height: 30em;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.center{
+    width: 30em;
+    height: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    width: 30em;
+    height: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.left div{
+    border-bottom: 3.5px solid #7142f8  ; 
+    width: 16em;
+    margin: 2em; 
+}
+.center img{
+    width: 24em;
+}
+.right div{
+  border-bottom: 3.5px solid #7142f8  ; 
+  width: 16em;
+  margin: 2em; 
+}
+@media screen and (max-width: 1200px)  {
+    .right div   { display: none; }  
+    .left div   { display: none; }
+  }
+  .chetan-1{
+    position: relative;
+    top: 15em;
+    right: 15em;
+   
+  }
+  .chetan-2{
+    position: relative;
+    top: 12em;
+    left: 14em;
+  }
+  .chetan-3{
+    position: relative;
+    top: 21.5em;
+    left: 15em;
+  }
+  .chetan-4{
+    position: relative;
+    top: 19em;
+    right: 13em;
+  }*/
