@@ -19,7 +19,7 @@
 
 .hero__form {
     position: absolute;
-    bottom: -15%;
+    bottom: -15% !important;
     z-index: 1;
     width: 100%;
     display: flex;

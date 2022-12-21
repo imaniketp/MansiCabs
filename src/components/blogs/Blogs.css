@@ -44,7 +44,7 @@
 
 @media all and (max-width:768px){
     .blogserchimg img{
-        width: 80%;
+        width: 80% !important;
     }
 }
 .blogserchimg p{
