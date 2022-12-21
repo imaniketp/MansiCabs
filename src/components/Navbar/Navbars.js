@@ -408,25 +408,24 @@ function Navbars() {
 
       <Modal
         show={shownewotp}
-        onClick={handleClosenewotp}
+        onHide={handleClosenewotp}
         size="sm"
         aria-labelledby="contained-modal-title-vcenter"
         centered
+        
       >
         <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">
-            <img className="login-logo" src="psd cab logo.png" alt="" />
-          </Modal.Title>
+          
         </Modal.Header>
         <Modal.Body>
-          <div className="otp-body">
-            <label className style={{ fontSize: "2rem" }}>
+          <div className="get-otp">
+            <label >
               Verify OTP
             </label>
             <input type="number" placeholder="Enter OTP" />
-            <h4>Resend OTP ?</h4>
+            <p>Resend OTP ?</p>
             <Button
-              className="login-body-btn-mobile"
+              className="getOtpBtn"
               onClick={handleClosenewotp}
             >
               Verify

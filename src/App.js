@@ -18,10 +18,12 @@ import AboutUs from "./components/aboutUs/AboutUs";
 import CabsSearch from "./components/cabs/CabsSearch";
 import CabsPage from "./components/cabs/CabsPage";
 import Transfer from "./components/cabs/Transfer";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+     <ScrollToTop />
       <UpperNavbar />
       <Navbars />
       <Routes>

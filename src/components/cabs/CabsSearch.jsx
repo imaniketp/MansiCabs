@@ -285,9 +285,11 @@ function CabsSearch() {
                   <h5><del>₹2631</del><span>15% off</span></h5>
                   <h4>₹2269</h4>
                   <div>
-                    <Link to='/cabsPage'>
-                  <Button  id="dropdown-basic-button" title="Select" className="cabs-etios3-drop">Search</Button>
-                    </Link>
+                  <Link to='/transfer-details'>
+                  <Button id="dropdown-basic-button" title="Select" className="cabs-etios3-drop">
+                  Search
+                  </Button>
+                  </Link>
                   </div>
                 </Col>
               </Row>
